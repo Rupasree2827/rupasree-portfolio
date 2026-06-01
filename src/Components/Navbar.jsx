@@ -1,15 +1,32 @@
 function Navbar() {
   return (
     <nav
-      style={{
-        background:"#0b1120",
-        color:"white",
-        padding:"22px 60px",
-        display:"flex",
-        justifyContent:"space-between",
-        alignItems:"center",
-        borderBottom:"1px solid #7e22ce"
-      }}
+     style={{
+  background:"rgba(11,17,32,0.65)",
+  color:"white",
+
+  padding:"18px 50px",
+
+  display:"flex",
+  justifyContent:"space-between",
+  alignItems:"center",
+
+  border:"1px solid rgba(126,34,206,0.35)",
+
+  position:"sticky",
+  top:"18px",
+
+  width:"92%",
+  margin:"auto",
+
+  borderRadius:"20px",
+
+  backdropFilter:"blur(18px)",
+
+  boxShadow:"0px 8px 35px rgba(168,85,247,0.18)",
+
+  zIndex:"1000"
+}}
     >
 
       <h2
@@ -25,18 +42,74 @@ function Navbar() {
       <div
         style={{
           display:"flex",
-          gap:"30px",
+          gap:"40px",
           fontSize:"18px"
         }}
       >
 
-        <p style={{cursor:"pointer",transition:"0.3s"}}>About</p>
+<a
+  href="#about"
+  style={{
+    color:"white",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.3s ease",
+    fontWeight:"600"
+  }}
+>
+  About
+</a>
+<a
+  href="#education"
+  style={{
+    color:"white",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.3s ease",
+    fontWeight:"600"
+  }}
+>
+  Education
+</a>
 
-        <p style={{cursor:"pointer",transition:"0.3s"}}>Skills</p>
+<a
+  href="#skills"
+  style={{
+    color:"white",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.3s ease",
+    fontWeight:"600"
+  }}
+>
+  Skills
+</a>
 
-        <p style={{cursor:"pointer",transition:"0.3s"}}>Projects</p>
+<a
+  href="#projects"
+  style={{
+    color:"white",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.3s ease",
+    fontWeight:"600"
+  }}
+>
+  Projects
+</a>
 
-        <p style={{cursor:"pointer",transition:"0.3s"}}>Contact</p>
+<a
+  href="#contact"
+  style={{
+    color:"white",
+    textDecoration:"none",
+    cursor:"pointer",
+    transition:"0.3s ease",
+    fontWeight:"600"
+  }}
+>
+  Contact
+</a>
 
       </div>
 
