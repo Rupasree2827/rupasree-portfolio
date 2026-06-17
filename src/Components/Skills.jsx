@@ -11,7 +11,11 @@ function Skills() {
     "Core Java",
     "Machine Learning",
     "Figma",
-    "Web Development"
+    "Web Development",
+    "Generative AI",
+    "Prompt Engineering",
+    "Google Flow",
+    "Canva AI"
   ];
 
   return (

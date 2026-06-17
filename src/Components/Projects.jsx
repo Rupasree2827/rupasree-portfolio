@@ -20,16 +20,16 @@ function Projects() {
      
   },
 
-  {
-title:"Complaint Management System",
+{
+title:"AI-Powered Story-to-Visual Content Generation System",
 
 image:null,
 
-desc:"Developed a complaint management system to manage and resolve complaints efficiently.",
+desc:"Generated AI-powered visual scenes from script-based prompts using Google Flow and prompt engineering.Refined prompts iteratively to improve image quality, visual consistency, and storytelling outcomes.",
 
 github:"https://github.com/Rupasree2827",
 demo:"#",
-tech:["React","Node.js","MongoDB"]
+tech:["Google Flow","Canva AI","Prompt Engineering","Generative AI","ChatGPT"]
 },
 
   

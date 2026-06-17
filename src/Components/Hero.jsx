@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import profile from "../assets/profile.jpeg";
-import resume from "../files/resume.pdf";
+import resume from "../files/AI resume(2).pdf"
 
 function Hero() {
   return (
